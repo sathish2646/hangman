@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./login3.jpg);
+    background-size:contain ;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body{
+    background-color: deepskyblue;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 2px solid rgb(252, 249, 249);
+    padding: 40px;
+    border-radius: 10px;
+    color: rgb(245, 8, 8);
+    backdrop-filter: blur(6px);
+    /* background-color: rgb(48, 152, 236); */
+}
+.container input{
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+    border: 2px solid rgb(197, 158, 158);
+}
+.but{
+    margin-top: 30px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(80, 171, 231);
+    color: white;
+    cursor: pointer;
+}
+.btn{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 32px;
+    border: 1px solid rgb(201, 53, 53);
+    background-color: red;
+    color: white;
+    font-size: 9px;
+    font-weight: bolder; 
+}
+label{
+    margin-top: 10px;
+}
+.p{
+    color: red;
+}
+.n{
+    color: red;
+}

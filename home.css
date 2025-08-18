@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./login2.jpg);
+    background-size: cover;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+.container{
+    border: 5px solid black;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    color: white;
+    backdrop-filter: blur(4px);
+}
+input{
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn2{
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+.btn2:hover{
+    background-color: rgb(9, 171, 235);
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+}
+.msg{
+    color: red;
+}
