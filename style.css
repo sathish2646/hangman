@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+   background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220607/pngtree-vector-glowing-wave-red-deep-image_1407962.jpg);
+    background-size:cover ;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 2px solid rgb(116, 111, 111);
+    padding: 50px;
+    border-radius: 10px;
+    color: rgb(250, 248, 248);
+    backdrop-filter: blur(40px);
+      
+}
+.container input{
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+    border: 2px solid rgb(197, 158, 158);
+}
+label{
+    font-weight: bolder;
+}
+.but{
+    margin-top: 30px;
+    height: 35px;
+    border-radius: 20px;
+    background-color:red;
+    color:white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    box-shadow: 1px 12px 10px rgb(51, 50, 50);
+    border: none;
+}
+.btn{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 32px;
+    background-color:rgb(70, 69, 69) ;
+    color: rgb(75, 124, 230);
+    font-size: 12px;
+    font-weight: bolder; 
+    border: none;
+    box-shadow: 1px 3px 10px black;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.but:hover{
+    transform: scale(1.1);
+}
+label{
+    margin-top: 10px;
+}
+.p{
+    color: red;
+}
+.n{
+    color: red;
+}

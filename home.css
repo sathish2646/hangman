@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+     background-image: url(https://png.pngtree.com/png-vector/20190604/ourmid/pngtree-beautiful-abstract-line-background-png-image_1110714.jpg);
+    background-size: contain;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+.container{
+    border: 2px solid rgb(77, 3, 3);
+    padding: 90px 30px 90px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    color: white;
+    backdrop-filter: blur(14px);
+}
+input{
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+.btn2{
+    height: 30px;
+    border-radius: 20px;
+    background-color: darkred;
+    color: white;
+    font-weight: bolder;
+     
+    border: none;
+}
+.btn2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 1px 10px white;
+}
+.msg{
+    color: red;
+}
